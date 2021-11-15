@@ -1,5 +1,12 @@
 async function getCategories() {
-    let response = await fetch('https://jservice.io/api/categories');
+    let response = await fetch("https://jservice.io/api/categories");
     let data = await response.json();
-    console.log(data);
+    return data;
 }
+
+getCategories().then(categories => {
+    console.log(categories);
+    document.body.innerHTML = `<div class"board">
+    <div class="my-category-title">${categories[0].title}</div>
+    </div>`
+})
