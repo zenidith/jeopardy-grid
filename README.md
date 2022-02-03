@@ -1,4 +1,4 @@
-This is a simple Jeopardy board which updates with trivia questions through an API via the following web service - https://jservice.io/
+This is a simple Jeopardy board which updates with trivia questions through an API via the following web service - <a href="https://jservice.io/">jService - 156,800 Trivia Questions</a>
 
 <img src="images/screen.png" alt="Dice Game" width="800"/>
 
